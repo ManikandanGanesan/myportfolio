@@ -10238,3 +10238,27 @@ form .row:first-child .floating-label-form-group {
 .copyright {
   background-color: #1a252f;
 }
+
+
+.custom-card {
+  margin-top: 5%;
+  margin-left: 2%;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 40%;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+}
+.custom-card img {
+  margin-top: 10px;
+}
+
+.custom-card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+
+.custom-card-container {
+  padding: 5px 16px;
+}
